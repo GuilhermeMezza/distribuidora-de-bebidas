@@ -4,10 +4,9 @@
     font-family: sans-serif;
 }
 #pagina-inicial{/*body*/
-    
     background-color: #666565;
 }
-/* ------------------------------------------------------------header--------------------------------------------------------- */
+/*==================================================HEADER-PAG-INICIAL==================================================*/
 header{
     width: 100%;
     background-color: #292929;
@@ -25,13 +24,15 @@ header{
     padding: 10px;
     border-bottom: 1px solid #fffaeb;
     margin-bottom: 10px;
+}
+abbr{
+    text-decoration: none;
     
 }
 .nome-do-site{
     color: #fffaeb;
     margin: 30px 20px;
     height: 40px;
-
 }
 .caixa-de-busca{
     width: 300px;
@@ -69,7 +70,7 @@ header{
     padding: 10px 0;
     font-size: 15px;
     font-weight: bolder;
-    width: 160px;
+    width: 130px;
     background-color:black;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -120,7 +121,7 @@ a:active {
     text-decoration: none;
 }
 
-/* ------------------------------------------------------------main--------------------------------------------------------- */
+/*==================================================MAIN-PAG-INICIAL==================================================*/
 .capa{
     /* margin-top: 212px; */
     margin-top: 25.4vh;
@@ -206,6 +207,7 @@ iframe{
     margin-bottom: 30px;
     border-radius: 10px;
 }
+/*==================================================FOOTER-PAGINA-INICIAL==================================================*/
 footer{
     background-color: #292929;
     display: flex;
@@ -244,12 +246,19 @@ footer img:hover{
     cursor: pointer;
     opacity: .8;
 }
-/* ----------------------------------pagina entrar cadastrar------------------------- */
+/*==================================================PAGINA-DE-CADASTRO==================================================*/
 #pagina-login-cadastro{
     background-color: #666565; 
 }
+#pagina-login-cadastro header .parte-1-header{
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    border-bottom: 1px solid #fffaeb;
+    margin-bottom: 0px;
+}
 .entrar, .cadastrar{
-    margin: 60px auto;
+    margin: 90px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     width: 400px;
     height: 400px;
@@ -259,7 +268,7 @@ footer img:hover{
 .main-pag-2{
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 25.4vh;
+    margin-top: 17.6vh;
     display: flex;
 }
 .icones-cartoes{
@@ -349,18 +358,25 @@ footer img:hover{
 .cadastrar{
     text-align: center;
 }
-/* --------------------pagina suporte----------------------------------------- */
+/*==================================================PAGINA-DE-SUPORTE==================================================*/
 #pagina-suporte{
     background-color: #666565; 
+}
+#pagina-suporte header .parte-1-header{
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    border-bottom: 1px solid #fffaeb;
+    margin-bottom: 0px;
 }
 .main-pag-3{
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 25.4vh;
+    margin-top: 17.6vh;
     display: flex;
 }
 .main-pag-3 .div-1{
-    margin: 70px auto;
+    margin: 100px auto;
 }
 .main-pag-3 h1{
     margin-bottom: 20px;
@@ -375,9 +391,11 @@ footer img:hover{
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
 }
 .main-pag-3 .mensagem{
-    width: 645px;
+    width: 635px;
     height: 100px;
-    ;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 .main-pag-3 .div-5{
     text-align: center;
@@ -397,5 +415,35 @@ footer img:hover{
 }
 .main-pag-3 button:hover{
     cursor: pointer;
+}
+/*==================================================PAGINA-SOBRE==================================================*/
+#pagina-sobre{
+    background-color: #666565; 
+}
+#pagina-sobre header .parte-1-header{
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    border-bottom: 1px solid #fffaeb;
+    margin-bottom: 0px;
+}
+.main-pag-4{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 16.6vh;
+    /* display: flex; */
+}
+.main-pag-4 div{
+    text-align: center;
+}
+.foto-guilherme{
+    border-radius: 100px;
+    margin: 60px auto 20px;
+}
+.nome, .idade{
+    margin-bottom: 20px;
+}
+.main-pag-4 ul{
+    margin: 50px 70px;
 }
 
